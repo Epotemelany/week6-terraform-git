@@ -12,14 +12,14 @@ provider "aws" {
   region = "us-east-2"
 }
 
-resource "aws_iam_group" "developers" {
-  name = "developers"
+resource "aws_iam_group" "ansiblegroup" {
+  name = "ansiblegroup"
   
 }
 
 
 resource "aws_iam_user" "lb" {
-  name = "mel2024"
+  name = "ansible"
   
 }
 
